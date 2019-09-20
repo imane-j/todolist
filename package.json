@@ -8,7 +8,6 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://imane-j.github.com/todolist-app",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
