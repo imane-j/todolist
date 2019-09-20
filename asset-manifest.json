@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/todolist-app/static/css/main.8e4b8a05.chunk.css",
-    "main.js": "/todolist-app/static/js/main.f1ec7458.chunk.js",
-    "main.js.map": "/todolist-app/static/js/main.f1ec7458.chunk.js.map",
-    "runtime~main.js": "/todolist-app/static/js/runtime~main.cc1e74ab.js",
-    "runtime~main.js.map": "/todolist-app/static/js/runtime~main.cc1e74ab.js.map",
-    "static/js/2.6b7226e4.chunk.js": "/todolist-app/static/js/2.6b7226e4.chunk.js",
-    "static/js/2.6b7226e4.chunk.js.map": "/todolist-app/static/js/2.6b7226e4.chunk.js.map",
-    "index.html": "/todolist-app/index.html",
-    "precache-manifest.59b2e33289457b7cc0be062c4abdd97f.js": "/todolist-app/precache-manifest.59b2e33289457b7cc0be062c4abdd97f.js",
-    "service-worker.js": "/todolist-app/service-worker.js",
-    "static/css/main.8e4b8a05.chunk.css.map": "/todolist-app/static/css/main.8e4b8a05.chunk.css.map",
-    "static/media/confetti.svg": "/todolist-app/static/media/confetti.1c91d5d0.svg",
-    "static/media/plus.svg": "/todolist-app/static/media/plus.8e665ca8.svg"
+    "main.css": "/todolist/static/css/main.8e4b8a05.chunk.css",
+    "main.js": "/todolist/static/js/main.565b4181.chunk.js",
+    "main.js.map": "/todolist/static/js/main.565b4181.chunk.js.map",
+    "runtime~main.js": "/todolist/static/js/runtime~main.394f96a6.js",
+    "runtime~main.js.map": "/todolist/static/js/runtime~main.394f96a6.js.map",
+    "static/js/2.6b7226e4.chunk.js": "/todolist/static/js/2.6b7226e4.chunk.js",
+    "static/js/2.6b7226e4.chunk.js.map": "/todolist/static/js/2.6b7226e4.chunk.js.map",
+    "index.html": "/todolist/index.html",
+    "precache-manifest.4acf43c0300bcce7b264d9780d1eb7af.js": "/todolist/precache-manifest.4acf43c0300bcce7b264d9780d1eb7af.js",
+    "service-worker.js": "/todolist/service-worker.js",
+    "static/css/main.8e4b8a05.chunk.css.map": "/todolist/static/css/main.8e4b8a05.chunk.css.map",
+    "static/media/confetti.svg": "/todolist/static/media/confetti.1c91d5d0.svg",
+    "static/media/plus.svg": "/todolist/static/media/plus.8e665ca8.svg"
   }
 }
