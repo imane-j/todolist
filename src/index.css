@@ -1,13 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.App {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 10px;
+  max-width: 800px;
+  -webkit-box-shadow: 10px 10px 52px -35px rgba(33,33,33,1);
+  -moz-box-shadow: 10px 10px 52px -35px rgba(33,33,33,1);
+  box-shadow: 10px 10px 52px -35px rgba(33,33,33,1);
+  
+}
+.App h2 {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+.App p {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.App .deco-nav {
+  width: 100%;
+  height: 20px;
+  border-bottom: 3px solid #fff;
+  background-image: linear-gradient(90deg, rgba(116, 235, 213, 0.562) 0%, rgba(159, 172, 230, 0.671) 100%);
+  position: relative;
+}
+.app-contenu {
+  padding: 20px 50px;
+}
+.app-contenu > div {
+  margin-top: 50px;
+}
+input[type=text] {
+  background-color:#e0e0e0;
+  color: #0093E9;
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+.titre-ajouter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+.titre-ajouter img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.App h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: 900;
+  color: #606060;
+}
+.congratulations img {
+  width: 50px;
+}
+
+.custom-control {
+  text-align: left;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+
+/* Effet hover bouton */
+
+/* Wobble Vertical */
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
